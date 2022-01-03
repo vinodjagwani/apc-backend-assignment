@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: ${SPRING_APPLICATION_NAME:apc-backend-assignment}
+  main:
+    allow-bean-definition-overriding: true
+  cloud:
+    discovery:
+      enabled: false
